@@ -1,0 +1,26 @@
+#container{
+	width:100%;
+	float:left;
+}
+#main{
+	margin-top:100px;
+	width:1024px;
+	height:500px;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#left{
+	float:left;
+	width:200px;
+	height:180px;
+	border:10px;
+}
+
+#right{
+	float:right;
+	width:800px;
+	height:500px;
+	border:10px;
+}

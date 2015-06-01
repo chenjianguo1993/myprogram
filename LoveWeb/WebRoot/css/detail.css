@@ -1,0 +1,333 @@
+#container {
+	width: 100%;
+	float: left;
+	margin-top: 120px;
+}
+
+#content {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left {
+	width: 220px;
+	float: right;
+	background: #FFF;
+	height: 380px;
+	box-shadow: 3px 10px 10px rgba(0, 0, 0, .37);
+}
+
+#left .left_button {
+	width: 220px;
+	position: inherit;
+	text-align: center;
+	height: 40px;
+	margin-top:0px;
+	background: #F8F4F4;
+}
+
+.left_button span {
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+#right {
+	width: 760px;
+	float: left;
+	background-color: #F0EFED;
+}
+
+.list {
+	float: left;
+	width: 100%;
+	font-size: 15px;
+}
+.list_title{
+	width:100%;
+	height:50px;
+	margin-top:5px;
+	font-family:微软雅黑;
+}
+
+
+.list_title .list_top{
+	margin-top:10px;
+	width:100%;
+	margin-left:15px;
+	color:#4c4c4c;
+	float:left;
+}
+.list_title .list_top span{
+	line-height:20px;
+}
+.list_title .list_button{
+	margin-top:5px;
+	width:100%;
+	font-size:12px;
+	text-align:left;
+	margin-left:15px;
+	color: #9e7e6b;
+	float:left;
+}
+#video_box {
+	float: left;
+	width: 760px;
+	overflow: hidden;
+	background: #FFF;
+	box-shadow: 3px 10px 10px rgba(0, 0, 0, .37);
+}
+
+#video_box .title {
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+#video_box .tt {
+	width: 100%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#video_box .title_left {
+	width: 90%;
+	height: 50px;
+	float: left;
+}
+
+#video_box .title_content {
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#video_box .title span {
+	font-weight: bold;
+	font-size: 22px;
+	color: #666666;
+}
+
+.introduce {
+	float: left;
+	width: 100%;
+	height: 35px;
+	font-size: 14px;
+	color: #9e7e6b;
+}
+
+.introduce .name {
+	float: left;
+	margin-left: 20px;
+	width:300px;
+}
+
+.name span {
+	float: left;
+}
+
+.introduce .time {
+	float: right;
+	margin-right: 20px;
+}
+
+.video {
+	float: left;
+	width: 720px;
+	height: 450px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.lost-image {
+	float: left;
+	width: 230px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.lost-introduce_word {
+	float: left;
+	width: 220px;
+	margin-left: 20px;
+	color: #4c4c4c;
+	font-size:16px;
+	margin-top: 10px;
+}
+
+.introduce_word {
+	float: left;
+	width: 720px;
+	margin-left: 20px;
+	color: #4c4c4c;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.count {
+	float: left;
+	margin-left:550px;
+	height: 55px;
+	color: #4c4c4c;
+	font-size: 15px;
+	margin-bottom:20px;
+	cursor:pointer;
+	
+}
+.count .sina{
+	float:left;
+	width:60px;
+	height:25px;
+	margin-left:10px;
+}
+.count .qq{
+	float:left;
+	width:30px;
+	height:25px;
+	margin-left:10px;
+}
+.count span{
+	float:left;
+	
+}
+.huifu {
+	float: left;
+	height: 30px;
+	width: 60px;
+	color: #4c4c4c;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	background: #FFFFB0;
+	margin-top: 20px;
+	box-shadow: 3px 10px 10px rgba(0, 0, 0, .37);
+}
+
+.commit {
+	float: left;
+	width: 760px;
+	height: 100px;
+	margin-bottom: 20px;
+	background: #FFF;
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, .35);
+}
+
+.commit .c1 {
+	float: left;
+	height: 100px;
+	width: 100%;
+	margin: 0 0 20px 0;
+	background: white;
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, .35);
+}
+
+.c1 .minimg {
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 15px;
+	overflow: hidden;
+}
+
+.c1 .commit1 {
+	float: left;
+	width: 705px;
+	height: 80px;
+}
+
+.commit .shang {
+	float: left;
+	height: 25px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #3d9e99;
+}
+
+.commit .zhong {
+	float: left;
+	width: 100%;
+	height: 25px;
+	font-size: 15px;
+	color: #2e2e2e;
+}
+
+.commit .xia {
+	float: left;
+	width: 100%;
+	height: 25px;
+	font-size: 15px;
+}
+
+.xia_left {
+	float: left;
+	height: 25px;
+	color: #9E7E6B;
+	font-size: 15px;
+}
+.response_time{
+	margin-left:15px;
+	float:left;
+	width:150px;
+}
+.response_time span{
+	height:20px;
+	float:left;
+}
+.xia .xia_right {
+	float: right;
+	width: 180px;
+	height: 25px;
+	text-align: right;
+}
+
+.fabiao {
+	float: left;
+	height: 30px;
+	width: 100%;
+	font-size: 15px;
+	color: #4c4c4c;
+	font-weight: bold;
+}
+
+#commitbox {
+	float: left;
+	height: 150px;
+	width: 100%;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .35);
+	margin: 0 0 50px 0;
+}
+
+#commitbox textarea {
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+
+.reply {
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	background: #FFFFB0;
+	font-size: 15px;
+	color: #4c4c4c;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .35);
+}
+
+.addfriend {
+	float: left;
+	height: 20px;
+	cursor: pointer; line-height : 20px;
+	text-align: center;
+	background: #00FD29;
+	line-height: 20px;
+	font-size:18px;
+	margin-left:20px;
+}
